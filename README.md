@@ -1,3 +1,3 @@
-Palworld map is a fan Palworld project that provides a webpage with a map that helps in localising various points of interest in Palworld.
+SoulMask map is a fan Palworld project that provides a webpage with a map that helps in localising various points of interest in Soulmask.
 
-Please support the Palworld developer - [Pocketpair](https://www.pocketpair.jp/palworld)!
+Please support the Soulmask developer - [Soulmask Steam]([https://www.pocketpair.jp/palworld](https://store.steampowered.com/app/2646460/Soulmask/)!
