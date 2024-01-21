@@ -74,7 +74,7 @@ const bounds = [
   [scale * -mapOrigin[0], scale * -mapOrigin[1]],
   [scale * (mapImageSize[0] - mapOrigin[0]), scale * (mapImageSize[1] - mapOrigin[1])]
 ]
-L.imageOverlay('images/maps/Map - Blank.jpg', bounds).addTo(map);
+L.imageOverlay('images/maps/Blank.jpg', bounds).addTo(map);
 map.fitBounds(bounds);
 
 const maxBoundsOffset = 0.3
