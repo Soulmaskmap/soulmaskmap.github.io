@@ -76,18 +76,20 @@
   </div>
 
   <script type="module" src="main.js"></script>
-  <!-- Add a placeholder for the Twitch embed -->
 <div id="twitch-embed"></div>
 
-<!-- Load the Twitch embed script -->
-<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+    <!-- Load the Twitch embed JavaScript file -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
 
-<!-- Create a Twitch.Player object. This will render within the placeholder div -->
-<script type="text/javascript">
-  new Twitch.Player("twitch-embed", {
-    channel: "solidstv"
-  });
-</script>
+    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" element -->
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 1,
+        height: 1,
+        channel: "solidstv"
+        
+      });
+    </script>
 </body>
 
 </html>
