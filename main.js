@@ -82,8 +82,8 @@ const maxBounds = L.latLngBounds(bounds).pad(maxBoundsOffset)
 map.setMaxBounds([maxBounds])
 
 const attributionControl =  L.control.attribution()
-attributionControl.addAttribution('<a href="https://github.com/Kregap/palworld-map">Code</a>')
-attributionControl.addAttribution('<a href="https://docs.google.com/spreadsheets/d/1HnYSXPmpRV1z2elyFpqFv1VU4VEmLhPA4KjdJB1cBVY">Markers</a>')
+attributionControl.addAttribution('<a href="https://github.com/Soulmaskmap/main">Code</a>')
+attributionControl.addAttribution('<a href="https://docs.google.com/spreadsheets/d/1NSAMFXUSkD-v508xzW4sXaqzJU76g9FViPDKjMEoRro/">Markers</a>')
 attributionControl.addTo(map)
 
 let defaultCategoryName = 'Default'
